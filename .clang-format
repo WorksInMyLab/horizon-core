@@ -1,0 +1,40 @@
+Language: Cpp
+BasedOnStyle: LLVM
+AlignAfterOpenBracket: Align
+AllowAllArgumentsOnNextLine: false
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortBlocksOnASingleLine: Never
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: true
+BreakAfterAttributes: Always
+ColumnLimit: 80
+CompactNamespaces: false
+ContinuationIndentWidth: 4
+FixNamespaceComments: true
+IndentPPDirectives: BeforeHash
+IndentRequiresClause: false
+IndentWidth: 4
+InsertBraces: true
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: Inner
+PPIndentWidth: 4
+RequiresClausePosition: WithPreceding
+SortIncludes: Never
+SpaceAfterTemplateKeyword: true
+SpaceBeforeCpp11BracedList: true
+SpaceBeforeParens: Custom
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+  AfterOverloadedOperator: true
+SpaceInEmptyBlock: true
+Standard: c++20
+PenaltyReturnTypeOnItsOwnLine: 9000
+PenaltyBreakAssignment: 9000
+PenaltyBreakOpenParenthesis: 9000
